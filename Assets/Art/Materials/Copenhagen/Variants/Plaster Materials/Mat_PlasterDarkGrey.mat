@@ -36,13 +36,25 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _TriplanerProjection_ad997e8f6205423490ed414c9440602a_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanerProjection_c59c560a493245a7978a8afef85e6140_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanerProjection_f32e0c411984451ca327365b98b976bc_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _ProjectionScale_1: 58.41
     - _UseFresnel: 0
     m_Colors:
     - _Color: {r: 0.35599998, g: 0.33999997, b: 0.31599998, a: 1}
-    - _Shadow_HSV: {r: -20, g: 1.4, b: 15.9, a: 0}
+    - _Shadow_HSV: {r: -151.9, g: 1.83, b: 5.74, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
