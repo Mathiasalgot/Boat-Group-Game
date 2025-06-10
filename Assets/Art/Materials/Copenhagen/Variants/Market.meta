@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Art/Materials/Copenhagen/Variants/Market.meta
 guid: fa1a2b60743d6b940978f5b42caaf6dd
 folderAsset: yes
 DefaultImporter:
+========
+guid: 5091ee5e97173114daafdd391cabf84d
+PrefabImporter:
+>>>>>>>> 206f1ba64ef5a13b16a3343fce44dd1e4b528a44:Assets/Prefabs/Assets/NotFloatingPlatform_2 Variant.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
