@@ -102,11 +102,11 @@ public class Scr_CharacterMovement : MonoBehaviour
             rb.AddForce(Vector3.down * 3f);
 
             RaycastHit hit;
-            if(Physics.Raycast(positionReferencePoint.position, new Vector3(movementInput.x,0,movementInput.y), out hit, 0.6f * transform.localScale.y * raycastScale, climbableLayer))
+            if(Physics.Raycast(positionReferencePoint.position - Vector3.up * 0.3f, new Vector3(movementInput.x,0,movementInput.y), out hit, 0.6f * transform.localScale.y * raycastScale, climbableLayer))
             {
                 RaycastHit hit2;
 
-                if(Physics.Raycast(hit.point + (Vector3.up*2 - hit.normal*0.1f), Vector3.down, out hit2, 2f * transform.localScale.y * raycastScale, groundLayer))
+                if(Physics.Raycast(hit.point + (Vector3.up*1.5f - hit.normal*0.1f), Vector3.down, out hit2, 2f * transform.localScale.y * raycastScale, groundLayer))
                 {
                     PlayOverrideAnimation("Climb", positionReferencePoint.position, new Vector3(hit.point.x,hit2.point.y - 0.5f,hit.point.z),
                         Quaternion.LookRotation(new Vector3(hit.point.x, transform.position.y, hit.point.z) - transform.position, Vector3.up), 0.05f, 0.6f);
@@ -125,7 +125,7 @@ public class Scr_CharacterMovement : MonoBehaviour
             }
             else
             {
-                Debug.DrawLine(positionReferencePoint.position, positionReferencePoint.position + new Vector3(movementInput.x, 0, movementInput.y) * 0.6f, Color.red);
+                Debug.DrawLine(positionReferencePoint.position - Vector3.up * 0.3f, positionReferencePoint.position - Vector3.up * 0.3f + new Vector3(movementInput.x, 0, movementInput.y) * 0.6f, Color.red);
             }
             
         }
