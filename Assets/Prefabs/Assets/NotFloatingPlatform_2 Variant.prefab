@@ -38,19 +38,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835792956669872308, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 9.17
       objectReference: {fileID: 0}
     - target: {fileID: 5835792956669872308, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.58
       objectReference: {fileID: 0}
     - target: {fileID: 5835792956669872308, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -53.78
       objectReference: {fileID: 0}
     - target: {fileID: 5835792956669872308, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.16460113
       objectReference: {fileID: 0}
     - target: {fileID: 5835792956669872308, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_LocalRotation.x
@@ -58,11 +58,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835792956669872308, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.98636025
       objectReference: {fileID: 0}
     - target: {fileID: 5835792956669872308, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.000000029802326
       objectReference: {fileID: 0}
     - target: {fileID: 5835792956669872308, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -91,6 +91,10 @@ PrefabInstance:
     - target: {fileID: 7697115881350997674, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830771578136389881, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
+      propertyPath: m_TagString
+      value: Material/Wood
       objectReference: {fileID: 0}
     - target: {fileID: 8611888603286781858, guid: 13e5c0036ce44b344a5a597200113815, type: 3}
       propertyPath: m_IsActive
