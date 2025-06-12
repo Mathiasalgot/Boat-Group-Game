@@ -1736,7 +1736,7 @@
     "m_ObjectId": "09a82549f4474e15aecdd135752164e4",
     "m_Title": "BASE",
     "m_Position": {
-        "x": -301.0,
+        "x": -300.9999694824219,
         "y": -1332.0
     }
 }
@@ -2652,7 +2652,7 @@
     "m_ObjectId": "2915d3d7de844c09b88300e9f65d608e",
     "m_Title": "Blue Channel",
     "m_Position": {
-        "x": 445.0,
+        "x": 445.0000305175781,
         "y": 1148.0
     }
 }
@@ -6720,7 +6720,7 @@
     "m_ObjectId": "b6d9eac70b804827b634c16cedefa2e7",
     "m_Title": "Green Channel",
     "m_Position": {
-        "x": 447.0,
+        "x": 446.9999694824219,
         "y": 306.0
     }
 }
@@ -8901,10 +8901,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2290.5,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 2907.000244140625,
+            "y": 288.0,
+            "width": 86.0,
+            "height": 76.99996948242188
         }
     },
     "m_Slots": [
