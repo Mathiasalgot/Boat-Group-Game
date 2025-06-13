@@ -24,6 +24,22 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Base_Tex:
+        m_Texture: {fileID: 2800000, guid: d7445a3904d294621b8b771866f184e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1_Tex:
+        m_Texture: {fileID: 2800000, guid: acce714a5053f694286251ca52a1864a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2_Tex:
+        m_Texture: {fileID: 2800000, guid: 0f1bc541d4bda47399f10e5dd0b961c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3_Tex:
+        m_Texture: {fileID: 2800000, guid: d7445a3904d294621b8b771866f184e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture_variation:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -54,7 +70,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Base_Blend: 2
+    - _Base_Tiling: 2
     - _FresnelStrength: 0.1
+    - _Layer1_Blend: 2
+    - _Layer1_Brightness: 2
+    - _Layer1_Tiling: 2
+    - _Layer2_Blend: 2
+    - _Layer2_Brightness: 2
+    - _Layer2_Tiling: 2
+    - _Layer3_Blend: 2
+    - _Layer3_Brightness: 2
+    - _Layer3_Tiling: 2
     - _ProjectionScale_1: -43.4
     - _Smoothness: 1.61
     - _SpecularStrength: 0.05
@@ -62,6 +89,9 @@ Material:
     - _UseSpecular: 1
     m_Colors:
     - _Color: {r: 0.3018868, g: 0.13527946, b: 0.16557167, a: 1}
+    - _Layer1_Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Layer2_Color: {r: 0, g: 1, b: 0.0034604073, a: 1}
+    - _Layer3_Color: {r: 0.0073928833, g: 0, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2725927721095233859

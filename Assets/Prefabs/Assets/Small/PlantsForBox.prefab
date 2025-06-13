@@ -48,6 +48,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c26bba9940635a147bd10de3d32e0118, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: de9880cbdbbbc8d47aff3c0c1fd09ea8, type: 2}
+    - target: {fileID: -7511558181221131132, guid: c26bba9940635a147bd10de3d32e0118, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7270852d1ad59bb48ab03d91370ffd81, type: 2}
     - target: {fileID: 919132149155446097, guid: c26bba9940635a147bd10de3d32e0118, type: 3}
       propertyPath: m_Name
       value: PlantsForBox

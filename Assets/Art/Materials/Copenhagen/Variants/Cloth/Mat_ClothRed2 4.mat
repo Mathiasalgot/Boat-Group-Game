@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_ClothRed2 4
+  m_Shader: {fileID: -6465566751694194690, guid: 72010249813e131459d6b8cf0cab5a80, type: 3}
+  m_Parent: {fileID: 2100000, guid: 27bae1bf664ab4b4fa95ad73c8d22dee, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: _ProjectionScale_1 _Texture_variation _Tiling _UseSpecular
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Base_Tex:
+        m_Texture: {fileID: 2800000, guid: d7445a3904d294621b8b771866f184e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1_Tex:
+        m_Texture: {fileID: 2800000, guid: acce714a5053f694286251ca52a1864a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2_Tex:
+        m_Texture: {fileID: 2800000, guid: 0f1bc541d4bda47399f10e5dd0b961c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3_Tex:
+        m_Texture: {fileID: 2800000, guid: d7445a3904d294621b8b771866f184e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_variation:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanerProjection_480da88a01f041c1891112a41c9f9c94_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanerProjection_6385fb3c607b4ea5917e77ac12d1be9c_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanerProjection_8fecab3d1ef6456cbe97a30df98d2b25_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanerProjection_b2a8f9e40e7c48a4b6d1bea062c718c9_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanerProjection_d564ac2b4f5345c19c4611e94a9b8d6e_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanerProjection_d6d923e7b2b94f5481068e38d4ece3c3_Texture_4250255971_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Base_Blend: 2
+    - _Base_Tiling: 2
+    - _FresnelStrength: 0.1
+    - _Layer1_Blend: 2
+    - _Layer1_Brightness: 1
+    - _Layer1_Tiling: 0.3
+    - _Layer2_Blend: 2
+    - _Layer2_Brightness: 1
+    - _Layer2_Tiling: 0.3
+    - _Layer3_Blend: 2
+    - _Layer3_Brightness: 1
+    - _Layer3_Tiling: 0.3
+    - _ProjectionScale_1: -43.4
+    - _Smoothness: 1.61
+    - _SpecularStrength: 0.05
+    - _UseFresnel: 0
+    - _UseSpecular: 1
+    m_Colors:
+    - _Color: {r: 0.3018868, g: 0.13527946, b: 0.16557167, a: 1}
+    - _Layer1_Color: {r: 0.3962264, g: 0.21606004, b: 0, a: 1}
+    - _Layer2_Color: {r: 0.3207547, g: 0.24917932, b: 0.19820221, a: 1}
+    - _Layer3_Color: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &2725927721095233859
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
