@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Tex:
-        m_Texture: {fileID: 2800000, guid: 48192232a3f61d24482ef67fddf5d15d, type: 3}
+        m_Texture: {fileID: 2800000, guid: c92ad7196806249a8ba0205f6b39086d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer1_Tex:
-        m_Texture: {fileID: 2800000, guid: 383fb985338ddc844bc752d570787bff, type: 3}
+        m_Texture: {fileID: 2800000, guid: 30cae4405e4037f40b9eb02df56e8efc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer2_Tex:
@@ -74,7 +74,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer3_Tex:
-        m_Texture: {fileID: 2800000, guid: 30cae4405e4037f40b9eb02df56e8efc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8f70c1684dfcd4a51bc2bd66f5fcd1e2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -167,10 +167,10 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Base_Blend: 2
-    - _Base_Tiling: 1
+    - _Base_Tiling: 9.32
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BlendSharpness_1: 8
+    - _BlendSharpness_1: 2
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -192,18 +192,18 @@ Material:
     - _Height_Falloff: 0.24
     - _HueShiftAmount: 173.9
     - _Layer1_Blend: 2
-    - _Layer1_Brightness: 5
-    - _Layer1_Tiling: 102.52
+    - _Layer1_Brightness: 26.09
+    - _Layer1_Tiling: 34.82
     - _Layer2_Blend: 2
-    - _Layer2_Brightness: 5
-    - _Layer2_Tiling: 108.1
+    - _Layer2_Brightness: 11
+    - _Layer2_Tiling: 43.09
     - _Layer3_Blend: 2
-    - _Layer3_Brightness: 5
-    - _Layer3_Tiling: 51.7
+    - _Layer3_Brightness: 20
+    - _Layer3_Tiling: 43.5
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _ProjectionScale_1: 10.3
+    - _ProjectionScale_1: -14.7
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -235,9 +235,9 @@ Material:
     - _Base_Color: {r: 0.4901961, g: 0.4039216, b: 0.31764707, a: 1}
     - _Color: {r: 0.49019608, g: 0.40392157, b: 0.31764707, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Layer1_Color: {r: 1, g: 0, b: 0, a: 1}
-    - _Layer2_Color: {r: 0.015300989, g: 1, b: 0, a: 1}
-    - _Layer3_Color: {r: 0.048303604, g: 0, b: 1, a: 1}
+    - _Layer1_Color: {r: 0.6509434, g: 0.45994166, b: 0.30397826, a: 1}
+    - _Layer2_Color: {r: 0.12776648, g: 0.2735849, b: 0.12517801, a: 1}
+    - _Layer3_Color: {r: 0.49056602, g: 0.37869513, b: 0.28462085, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _Shadow_HSV: {r: 21.6, g: 1.66, b: 2.46, a: 0}
     - _Shadow_Strenght: {r: 1, g: 1, b: 0, a: 0}
